@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragment.HomeFragment"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/captureic"/>
+<!--
+                <TextView
+                    android:id="@+id/myImageViewText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageview1"
+                    android:layout_alignTop="@+id/imageview1"
+                    android:layout_alignRight="@+id/imageview1"
+                    android:layout_alignBottom="@+id/imageview1"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="1dp"
+                    android:textSize="30dp"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:text="@string/website_design_development"
+                    android:textColor="@color/blueone" />-->
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:gravity="top"
+                android:textAlignment="center"
+                android:text="A Best Leading IT Company Spotlighted On"
+                android:textColor="@android:color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:gravity="top"
+                android:textAlignment="center"
+                android:text="Developing Brands Online"
+                android:textColor="#6470B7"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Best Leading IT Company inner urge is to muck in with global organizations to overwhelm technological confronts of Digital Transformation with a fine-tune on new and emerging technologies, which will make a positive impact in our lives by opening new auspicious horizons and moulding it easy as pie."
+                android:textAlignment="center"
+
+                android:textColor="@android:color/black" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recv"
+                android:nestedScrollingEnabled="false"
+                ></android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recv1"
+                android:nestedScrollingEnabled="false"></android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recv2"
+                android:nestedScrollingEnabled="false"></android.support.v7.widget.RecyclerView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/portfolio" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorControlHighlight"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Our aspiration is not only to hand over perfect digital marketing techniques, website designs and developments, howbeit we also take care of our clients by proving them incomparable services."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+
+                <ImageView
+                    android:id="@+id/imageview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i21" />
+
+                <ImageView
+                    android:id="@+id/imageview3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i22" />
+
+                <ImageView
+                    android:id="@+id/imageview4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i23" />
+
+                <ImageView
+                    android:id="@+id/imageview5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i24" />
+
+                <ImageView
+                    android:id="@+id/imageview6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i25" />
+
+                <ImageView
+                    android:id="@+id/imageview7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i26" />
+
+                <ImageView
+                    android:id="@+id/imageview8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i27" />
+
+                <ImageView
+                    android:id="@+id/imageview9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i28" />
+
+                <ImageView
+                    android:id="@+id/imageview10"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i29" />
+
+                <ImageView
+                    android:id="@+id/imageview11"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i30" />
+
+                <ImageView
+                    android:id="@+id/imageview12"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i31" />
+
+                <ImageView
+                    android:id="@+id/imageview13"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/i32" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/cpture1"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/cpture2"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/cpture3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:text="We are Best Leading IT Company of professional technologist’s expert in rendering services in different areas including education, networking, e-commerce, finance, industries, tour and travels, real estate, Event Planner, Medical, Transport, Hotel etc."
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary" />
+
+            <ImageView
+                android:id="@+id/imageview14"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_city" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/our"
+                android:layout_marginTop="30dp"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/fl">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

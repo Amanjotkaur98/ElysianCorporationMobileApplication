@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/careerpic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Career"
+                android:textColor="#6470B7"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="A mind that is stretched with new experiences can never go back to its past dimensions. Elysian Corporation is more than a platform. We don’t build business, we build people and the people build the business. We are powering up the people to make work move and business successful."
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/career1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="We invite individuals to explore their next chapter. If you want a challenging and enjoyable working environment, we want you to realize your prospective. We aspire to be the best at everything we do to help people to grow personally and professionally. Moreover, we are the partner in the changing world of work. We believe that there are no shortcuts to any place worth going. If you are looking for a place that values your passion, your desire to learn and if you are aspiring to achieve your dreams then no need to wait anymore and lump up with us as the secret of change is to be focus on all of your energy, not on fighting the old but on building the new.
+At Elysian Corporation, Carriers have no borders. We will help you to develop an effective strategy to comprehend your goals and to explore your potentially satisfying occupations."
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:text="Current"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="32dp"
+                    android:layout_weight="2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toRightOf="@id/tv1"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="Openings"
+                    android:textColor="#D81B60"
+                    android:textSize="32dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorButtonNormal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/tv3"
+                        android:text="Web"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/tv3"
+                        android:gravity="center"
+                        android:text="Development"
+                        android:textColor="#D81B60"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=" Key Skills/Abilities"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Good knowledge of PHP and MySQL "
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Vast Experience in Magento based\n
+Ecommerce Websites (using Community\n
+and Enterprise edition)"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Good knowledge of OOPs + Should have \n
+worked on MVC architecture"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Knowledge of JQUERY, Angluar JS, AJAX,\n
+CSS"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Exposure/understanding of Node JS, Code\n
+Igniter, CakePHP framework is good to\n
+have."
+                            android:autoSizeTextType="uniform"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Worked with Agile development method-\n
+ology"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Worked with version control system like \n
+GIT,SVN etc."
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"
+                            android:textStyle=""/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Good communication skills"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Job Title:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv5"
+                        android:gravity="center"
+                        android:text="Senior Web Developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Total Openings:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv7"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Experience:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv9"
+                        android:gravity="center"
+                        android:text="4 or above"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Skill Set:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv11"
+                        android:layout_marginRight="10dp"
+                        android:text="Magneto+ DevOps skills (experience in tuning and utilization of OS: Linux; tuning web-servers: Apache,Nginx, PHP, MySQL,Cache(Varnish,Redis),AWS."
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Joining Period:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv13"
+                        android:gravity="center"
+                        android:text=" 20-30 days"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv15"
+                        android:gravity="center"
+                        android:text="Mohali"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="?android:attr/panelBackground"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Web"
+                        android:textColor="@android:color/black"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/tv17"
+                        android:gravity="center"
+                        android:text="Designer"
+                        android:textColor="#D81B60"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text=" Key Skills/Abilities"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="HTML Development"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="HTML5 / CSS 3"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Bootstrap, Java Scripting, jQuery"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Customization knowledge for WordPress \nand Magento themes"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="Good Communication skills"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Job Title:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv19"
+                        android:gravity="center"
+                        android:text=" Web Designer"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Total Openings:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv21"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Experience:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv23"
+                        android:gravity="center"
+                        android:text="2 and above"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Skill Set:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv25"
+                        android:text=" HTML,CSS,Bootstrap, Jquery"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Joining Period:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv27"
+                        android:gravity="center"
+                        android:text="30 days"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv29"
+                        android:gravity="center"
+                        android:text="Mohali"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorButtonNormal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/tv31"
+                        android:text="Mobile"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/tv31"
+                        android:gravity="center"
+                        android:text="Application"
+                        android:textColor="#D81B60"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=" Key Skills/Abilities"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Mobile User Interface Design. Probably\n the most important aspect of mobile app\n development is building a high quality user \ninterface (UI) "
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Cross-Platform App Development"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Backend Computing"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Modern Language Programming Skills"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Business Capability"
+                            android:autoSizeTextType="uniform"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Job Title:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv33"
+                        android:gravity="center"
+                        android:text="Software Developer"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Total Openings:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv35"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Experience:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv37"
+                        android:gravity="center"
+                        android:text="2 and above"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Skill Set:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv39"
+                        android:layout_marginRight="10dp"
+                        android:text="Cross-Platform App Development, Backend Computing, Modern Language Programming Skills."
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Joining Period:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv41"
+                        android:gravity="center"
+                        android:text="30 days"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv43"
+                        android:gravity="center"
+                        android:text="Mohali"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="?android:attr/panelBackground"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="SEO / SEM /"
+                        android:textColor="@android:color/black"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/tv45"
+                        android:gravity="center"
+                        android:text="SMM"
+                        android:textColor="#D81B60"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text=" Key Skills/Abilities"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Email Management"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Quality Assurance"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Research"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Facebook Marketing"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="Mobile Marketing"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="SEM"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="SEO"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="Social Media Marketing"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Job Title:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv47"
+                        android:gravity="center"
+                        android:text=" SEO/SEM/SMM"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Total Openings:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv49"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Experience:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv51"
+                        android:gravity="center"
+                        android:text="3 and above"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Skill Set:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv53"
+                        android:text="Email Management, Quality Assurance, Research, Speaking, Writing, Facebook Marketing, Mobile Marketing, SEM, SEO, Social Media Marketing, Facebook Ads, Google AdWords, Content Management, Google analytics, Webmaster Tools, WordPress, Social Media Moderation, Real Estate Services"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Joining Period:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv55"
+                        android:gravity="center"
+                        android:text="30 days"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv57"
+                        android:gravity="center"
+                        android:text="Mohali"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorButtonNormal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/tv59"
+                        android:text="Digital"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/tv59"
+                        android:gravity="center"
+                        android:text="Marketing"
+                        android:textColor="#D81B60"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=" Key Skills/Abilities"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="CONTENT marketing. Content is king."
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="SOCIAL MEDIA marketing. Social media has\n become entrenched in our everyday lives \nand routines."
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="Mobile Marketing"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="DATA-DRIVEN marketing"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="MOBILE marketing"
+                            android:autoSizeTextType="uniform"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_column="1"
+                            android:text=">"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"/>
+                        <TextView
+                            android:layout_column="2"
+                            android:text="CUSTOMER EXPERIENCE (CX) marketing."
+                            android:autoSizeTextType="uniform"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"/>
+                    </TableRow>
+
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Job Title:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv61"
+                        android:gravity="center"
+                        android:text="Digital Marketer"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Total Openings:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv63"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Experience:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv65"
+                        android:gravity="center"
+                        android:text="3 and above"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Skill Set:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv67"
+                        android:layout_marginRight="10dp"
+                        android:text="CONTENT marketing, SOCIAL MEDIA marketing, DATA-DRIVEN marketing, MOBILE marketing, CUSTOMER EXPERIENCE (CX) marketing."
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Joining Period:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv69"
+                        android:gravity="center"
+                        android:text="30 days"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv71"
+                        android:gravity="center"
+                        android:text="Mohali"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="?android:attr/panelBackground"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Online "
+                        android:textColor="@android:color/black"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/tv73"
+                        android:gravity="center"
+                        android:text="Bidder"
+                        android:textColor="#D81B60"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text=" Key Skills/Abilities"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Business Development"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Lead Generation Client"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Interaction Communication Skills"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:text="Online Bidding OdeskProposal Writing BD\nand Magento themesFreelancer Cold \nCalling outbound calling BDM BDE IT Sale \nSales Business Development Manager"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_marginLeft="20dp"
+                            android:text=">"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_marginLeft="10dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="Desired Candidate: ProfileExcellent verbal \ncommunication especially confident in \nunderstanding American accent.Having \ngood communication, proven presentation, \nnegotiation and interpersonal skills.Should \nbe organized,self–driven, energetic \nand resilient."
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Job Title:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv75"
+                        android:gravity="center"
+                        android:text="  Online Bidder"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Total Openings:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv77"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Experience:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv79"
+                        android:gravity="center"
+                        android:text="3 and above"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Skill Set:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv81"
+                        android:text=" Business Development, Lead Generation Client, Interaction Communication Skills."
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Joining Period:"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="-1dp"
+                        android:layout_toRightOf="@id/tv83"
+                        android:gravity="center"
+                        android:text="30 days"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location:"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="@color/design_default_color_primary"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_toRightOf="@id/tv85"
+                        android:gravity="center"
+                        android:text="Mohali"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/framel">
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

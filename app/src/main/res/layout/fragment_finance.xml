@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blueone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="SIX (WEEKS / MONTHS) FINANCE INDUSTRIAL TRAINING"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/financelogo1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="SIX (WEEKS / MONTHS)"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-15dp"
+                    android:gravity="center"
+                    android:text="FINANCE INDUSTRIAL TRAINING"
+                    android:textColor="#6470B7"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Today, Finance is not simply a word else has emerged into an academic discipline of greater significance. Countless possibilities have been lined up for powerful finance managers in all major companies. It is now organized as a branch of Economics. In other words, Finance is the soul of Economic Activities. The course entitled “FINANCE” is the field of management that has been specially designed in a systematic and logical manner which is related with the management of finance of a company or organization to achieve financial objective. Moreover, it has emerged as one of the most profitable career option."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Popular Career"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:text="Paths in finance are"
+                android:textColor="#6470B7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Financial Controller"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Real estate Finance Manager"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Commercial Banker"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Financial Director"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Manager of Finance Department"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Chief Financial officer"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Financial Analyst"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Insurance Finance Manager"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:text="*  Investment Banker"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Scope of Finance"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:gravity="center"
+                android:text="Training From Elysian Corporation"
+                android:textColor="#6470B7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="1. Our course is presented through various live projects, multimedia enriched e-content, real latest equipments, activities and assessments in order to make you understand various topics more assuredly."
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="2. Our Certified Expert Trainers help their trainees in providing knowledge of complex technical concepts and a good number of methods of arranging money for entrepreneurial and business ventures."
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="3. We have smart classrooms with real latest equipments and fully equipped with projectors, Wi-Fi connectivity, live racks, and Digital pads."
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="4. We proffer 24X7 Lab facilities; candidates are free to access the labs for boundless number of hours as in keeping with their own preferred timings."
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="5. We have links with top companies in providing 100% job assistance, and after completion of training, interested individuals can work on our live projects."
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7DD2D2D6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="Syllabus Of"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-15dp"
+                    android:gravity="center"
+                    android:text="Ethical Hacking"
+                    android:textColor="#6470B7"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/bt1"
+                android:text="CLICK HERE >>"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

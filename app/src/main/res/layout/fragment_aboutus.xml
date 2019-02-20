@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="fragment.AboutusFragment">
+    <ScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/aboutuspic"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tv1"
+                    android:text="Welcome To"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_below="@id/tv1"
+                    android:text="Elysian Corporation"
+                    android:textColor="#6470B7"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="With the team of experts, Elysian Corporation is created with the laser-focus to proffer superlative IT Solutions industrial training to every business in Web Development, Digital Marketing (SEO, SMO, Email Marketing, Content Marketing) Mobile Applications (Hybrid, Android and IOS), Designing and Networking
+(RMM, NOC and Desktop support services at the most affordable and competitive prices. Our foremost aim is to embellish up our clients
+by solving their queries and getting their work done in their budget and deadlines. We use instructive tools while working with our
+clients / partners ensuring that they will be satisfied with our business and technologies, we are dealing with International clients
+and provide services at the global level. We are the helping hand with highly experienced web developers, creative designers,
+digital marketing experts, content writers and IT admin expertise in handing over the best results."
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6470B7"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/mission_vision"
+                    android:textColor="@android:color/white"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/visionmission" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+
+Our mission is to stimulate the success of others and to excel our customer’s expectations through value-driven expertise. We have a great working environment and treat each other with respect and dignity. Our inner goal is to provide the best customer experience you’ll ever had with any company. We develop happily satisfied customer all the time as we believe in aspiring moments of optimism and happiness. Also, We aspire and equip individuals to reach their maximum potential. We are the master of leading software development tools that provides greater understanding of technologies as the ultimate promise of technology is to make us master of a world that we command by a push of a button.
+"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/tv3"
+                    android:text="Our Culture"
+                    android:layout_marginLeft="70dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toRightOf="@id/tv3"
+                    android:text="And Values"
+                    android:textColor="#6470B7"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:text="Elysian Corporation focuses on culture of Innovation and Belonging where everyone is welcome – The heart and soul of the Company is Creativity and Innovation. As opportunities are growing to exchange ideas, we are moulding different technologies and services for a better tomorrow.
+\n
+ \n Respect for every individual – We aspire to have deep inner respect for every human being inside and outside our Company and even to the communities in which they are living as we believe that this helps an individual to grow professionally and personally.
+
+\n
+\n A will to win – Our team of professionals has a remarkable determination to help our clients and partners. We deliver sustainable and continuous financial performance for the Company. To inspire moments of optimism and happiness through our products and services – We have a huge emphasis on effective and timely communication with our partners, clients, and employees by assuring that their expectations are managed and met correctly.
+
+\n
+\n Courage to shape a better future – We have the courage to shape a better future of our clients by showing good seeds into your future. Our passion is committed in our heart and mind – With our team of professionals; we share our values and guides individuals on how to be at the top in this world. Focus on productivity – We are the highly effective, lean and fast-moving company that focuses on quality and productivity rather than quantity
+
+\n
+\n Therefore, it’s not hard to fabricate decisions when you know what your values are.
+
+\n
+\n This is who we are as a Team"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

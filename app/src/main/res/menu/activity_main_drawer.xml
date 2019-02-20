@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_action_info"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/ic_teach"
+            android:title="Training" />
+
+        <item
+            android:id="@+id/nav_career"
+            android:icon="@drawable/ic_stairs"
+            android:title="Career" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_action_contact_phone"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_getintouch"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Get In Touch" />
+
+
+    </group>
+
+
+</menu>
